@@ -1,11 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 body {
-  background-color: palevioletred;
+  background-color: #03071e;
 }
-
+#clb {
+  color: #ffc8dd;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+}
 #container {
-  background-color: pink;
+  background-color: #ffc8dd;
   border: 5px solid;
-  height: 275px;
+  height: 500px;
   width: 0 auto;
   text-align: center;
 }
@@ -19,5 +24,6 @@ body {
 #output {
   margin: 25px auto;
   font-size: 25px;
-  color: white;
+  color: #03071e;
+  font-family: "Dancing Script", cursive;
 }
