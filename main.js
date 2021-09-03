@@ -1,6 +1,6 @@
 let btn = document.getElementById('btn');
 let output = document.getElementById('output');
-let quotes = 
+let punch = 
 [ 
     "Ton père il ne serait pas dealer de weed ? Parce que t’es sacrément bien roulée !",
     "Ton père n’est pas fermier ? Parce que t’es une belle petite poule.",
@@ -16,9 +16,9 @@ let quotes =
     "C’est une échelle sur tes collants ou bien l’escalier vers le Paradis ?",
     "Quand je regarde tes fesses, j’y vois mon avenir. Et franchement il est radieux !",
     "Un coup de main mademoiselle ? Nan ? Alors un coup de rein ?!",
+    "Tu pense quoi tu conflie israelo-palestinien",
 ];
-
 btn.addEventListener('click', function(){
-    var randomQuote = quotes[Math.floor(Math.random() * quotes.length)]
-    output.innerHTML = randomQuote;
+    var randomPunch = punch[Math.floor(Math.random() * punch.length)]
+    output.innerHTML = randomPunch;
 })
